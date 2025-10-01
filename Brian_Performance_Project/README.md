@@ -1,4 +1,4 @@
-**Brian Performance Report – Power BI**
+****Brian Performance Report – Power BI****
 
 _**Dynamic Power BI dashboard with SWITCH logic, virtual tables, and drill-downs for KPI tracking and profitability segmentation**_
 
