@@ -1,5 +1,7 @@
 **Brian Performance Report – Power BI**
 
+_**Dynamic Power BI dashboard with SWITCH logic, virtual tables, and drill-downs for KPI tracking and profitability segmentation**_
+
 📖 _**Overview**_
 
 The Brian Performance Report is a dynamic Power BI dashboard built to analyze performance across Sales, Gross Profit, and Quantity.
