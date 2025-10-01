@@ -62,7 +62,7 @@ _Advanced DAX & Modeling:_
 
 _Dynamic Dashboard Design:_
 
--Created slicer-driven dynamic titles.
+- Created slicer-driven dynamic titles.
 
 - Built context-aware drill-downs (Month → Country → Product).
 
