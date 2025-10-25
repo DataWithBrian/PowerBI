@@ -4,7 +4,7 @@ I designed an advanced Power BI credit risk dashboard to help financial institut
 
 ✅ Business Problem Solved
 
-Most lenders track performance after defaults happen — but miss early warning signals like debt concentration and leverage buildup.
+Most lenders track performance after defaults happen, but miss early warning signals like debt concentration and leverage buildup.
 This dashboard helps answer forward-looking risk questions, such as:
 
 - Which loan segment carries the highest credit risk exposure?
