@@ -1,11 +1,13 @@
-📊 Loan Portfolio Credit Risk Analysis — Power BI Dashboard
+📊 **Loan Portfolio Credit Risk Analysis — Power BI**
 
 I designed an advanced Power BI credit risk dashboard to help financial institutions identify high-risk loan segments, exposure concentration, and early default signals before they become critical.
 
-✅ Business Problem Solved
+This project is split into 2 core analytical layers:
 
-Most lenders track performance after defaults happen, but miss early warning signals like debt concentration and leverage buildup.
-This dashboard helps answer forward-looking risk questions, such as:
+✅ **PAGE 1 — Portfolio Exposure Risk Positioning**
+Business Problem Solved
+
+Most lenders track performance after defaults happen, but miss early warning signals like debt concentration and leverage buildup. This dashboard answers forward-looking risk questions such as:
 
 - Which loan segment carries the highest credit risk exposure?
 
@@ -13,42 +15,62 @@ This dashboard helps answer forward-looking risk questions, such as:
 
 - Is risk growing faster than loan performance?
 
-🔍 Key Insights Delivered
+Key Insights Delivered
 
 - $435M total loan exposure analyzed across 39,000+ loans
 
-- Debt Consolidation loans dominate the risk, with the largest exposure + highest leverage (DTI)
+- Debt Consolidation loans dominate the risk, with largest exposure + highest leverage (DTI)
 
-- Default risk is rising sharply in late 2021 — exposure is accelerating faster than stability
+- Default risk is rising sharply in late 2021 → exposure increasing faster than stability
 
 - 83% of loans are still performing, but risk is heavily concentrated, not diversified
 
-📌 Dashboard Features
+✅ **PAGE 2 — Borrower Segmentation for Early Risk Detection**
+What I Found
 
-Executive KPI Overview — Exposure · Loan Count · Default % · Avg Interest Rate
+Most lenders assume low-income borrowers are highest risk — but the worst default performance didn’t come from low-income borrowers.
+It came from Small Business loans.
 
-- Risk Positioning Scatter Plot — identifies high-DTI & high-exposure danger zone
+- Small Business loans default at 25.6%, ~2× the portfolio default avg (13.8%)
 
-- Loan Purpose Segmentation — instantly reveals where the money is concentrated
+- DTI trend analysis showed that income does reduce leverage — DTI falls steadily as income rises — but this did not translate directly into default outcomes. This proves that “low DTI” doesn’t always mean “low risk”.
 
-- Trend Analysis — exposure surge detection with time intelligence
+- Default rates fall as income rises… except the $500k-$999k income bracket where defaults jump to 17.5%
 
-- Risk Status Donut — real-time performance snapshot
+- This shows even high-income earners can be over-leveraged
 
-🛠 Tools & Skills Used
+- Credit Grade is still the strongest pricing trigger → interest rates climb smoothly A~7% → G~22%
 
-✔ Power BI (DAX, Dynamic Measures, Custom Risk Insights)
+- Employment length has minimal impact
 
-✔ Data Cleaning & Modeling (Power Query)
+Recommended Actions
 
-✔ Financial Risk Analytics · Portfolio Behavior Analysis
+To reduce concentration risk & silent build-up:
 
-✔ Business Storytelling & Executive Dashboard Design
+- apply early monitoring triggers on small business purpose loans
 
-This dashboard is ideal for:
+- price risk more on purpose + credit grade, not income
 
-✔ Banks, Digital Lenders, Microfinance & Fintech
+- rebalance portfolio mix toward consistently low-risk categories
 
-✔ Investors & Credit Risk Teams
+- diversify away from extremely high-loss purpose segments
 
-✔ Portfolio Strategy & Lending Performance Monitoring
+This moves lenders from reactive loss reporting → proactive risk prevention.
+
+🔧 Tools & Skills Used
+
+- Power BI (DAX, dynamic measures, segmentation logic)
+
+- Power Query (data cleaning, modeling)
+
+- Financial Risk Analytics & Behavioral Scoring
+
+- Executive Dashboard & Data Storytelling
+
+👔 Who This Dashboard Is For
+
+- Banks, Digital Lenders, Microfinance & Fintechs
+
+- Credit Risk & Portfolio Monitoring Teams
+
+- Lending Strategy, Pricing & Risk Governance
